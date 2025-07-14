@@ -1,11 +1,11 @@
 # 雙人終端機貪食蛇 SnakeV2 (C++ / ncurses)
 
-這是我用 C++ 與 `ncurses` 製作的 **雙人貪食蛇遊戲** V2 ，在V1的基礎上，增加了雙人操作的競技性。
+這是我用 C++ 與 ncurses 製作的 **雙人貪食蛇遊戲** V2 ，在V1的基礎上，增加了雙人操作的競技性。
 
 ---
 
 ## 遊戲特色
-- 使用 `ncurses` 製作終端畫面（即時刷新與無閃爍輸入）
+- 使用 ncurses 製作終端畫面（即時刷新與無閃爍輸入）
 - 雙人模式（WSAD + 方向鍵 控制）
 - 減肥藥設計（吃了會縮短蛇）
 - 支援牆壁、自己、他人碰撞偵測
@@ -18,4 +18,7 @@
 ```bash
 sudo apt install libncurses5-dev        # Ubuntu / Debian
 brew install ncurses                    # macOS
+```
+### 執行指令
+```bash
 g++ main.cpp Snake.cpp -lncurses -o snakeV2
