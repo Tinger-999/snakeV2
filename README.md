@@ -22,3 +22,6 @@ brew install ncurses                    # macOS
 ### 執行指令
 ```bash
 g++ main.cpp Snake.cpp -lncurses -o snakeV2
+```
+## 執行範例
+![初始介面:兩條互不相撞的蛇]()
