@@ -24,5 +24,5 @@ brew install ncurses                    # macOS
 g++ main.cpp Snake.cpp -lncurses -o snakeV2
 ```
 ## 執行範例
-![初始介面:兩條互不相撞的蛇](./初始畫面.png)
-![判斷造成相撞者或蛇長以決定輸贏](./結果顯示.png)
+[初始介面:兩條互不相撞的蛇](./初始畫面.png)
+[判斷造成相撞者或蛇長以決定輸贏](./結果顯示.png)
